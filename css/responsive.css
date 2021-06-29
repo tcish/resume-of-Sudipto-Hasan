@@ -1,0 +1,117 @@
+@media (max-width: 645px) {
+  .section__right .edu__content .edu__box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .section__right .skills .skills__content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: unset;
+    -ms-flex-align: unset;
+    align-items: unset;
+  }
+
+  .section__right .skills .skills__content h4 {
+    -webkit-box-flex: unset;
+    -ms-flex: unset;
+    flex: unset;
+  }
+
+  .section__right .skills .skills__content .skills__percent {
+    -webkit-box-flex: unset;
+    -ms-flex: unset;
+    flex: unset;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    margin: 0 0 40px 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .section__left{
+    text-align: center;
+  }
+
+  .section__right .edu__content .edu__box .duration {
+    margin-right: 10px;
+  }
+
+  .section__right .skills .skills__content {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .section__right .skills .skills__content h4 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 30%;
+    flex: 0 0 30%;
+  }
+
+  .section__right .skills .skills__content .skills__percent {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 70%;
+    flex: 0 0 70%;
+  }
+
+  .bottom__section .personal__info .personal__info__item h3:nth-of-type(1) {
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 375px) {
+  .bottom__section .personal__info .personal__info__item {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 300px) {
+  .section__left .heading img {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .heading__right {
+    font-size: 1rem;
+  }
+
+  .section__right .skills .skills__content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: unset;
+    -ms-flex-align: unset;
+    align-items: unset;
+  }
+
+  .section__right .skills .skills__content h4 {
+    -webkit-box-flex: unset;
+    -ms-flex: unset;
+    flex: unset;
+  }
+
+  .section__right .skills .skills__content .skills__percent {
+    -webkit-box-flex: unset;
+    -ms-flex: unset;
+    flex: unset;
+  }
+
+  .bottom__section .personal__info .personal__info__item {
+    font-size: 0.6rem;
+  }
+}
