@@ -38,10 +38,6 @@
     flex-direction: column;
   }
 
-  .section__left{
-    text-align: center;
-  }
-
   .section__right .edu__content .edu__box .duration {
     margin-right: 10px;
   }
