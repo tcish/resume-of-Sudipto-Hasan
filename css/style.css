@@ -7,50 +7,7 @@
 }
 
 body{
-  -webkit-animation: anicolor 20s infinite;
-  animation: anicolor 20s infinite;
-}
-
-@-webkit-keyframes anicolor {
-  0%{
-    background: #4b928c;
-  }
-  20%{
-    background: #49967c;
-  }
-  40%{
-    background: #8f4747;
-  }
-  60%{
-    background: darkseagreen;
-  }
-  80%{
-    background: #829249;
-  }
-  100%{
-    background: #448a84;
-  }
-}
-
-@keyframes anicolor {
-  0%{
-    background: #057a70;
-  }
-  20%{
-    background: #28b485;
-  }
-  40%{
-    background: #8f4747;
-  }
-  60%{
-    background: darkseagreen;
-  }
-  80%{
-    background: #b2da20;
-  }
-  100%{
-    background: #057a70;
-  }
+  background: #272626;
 }
 
 .container{
