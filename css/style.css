@@ -102,6 +102,7 @@ body{
   -ms-flex-positive: 1;
   flex-grow: 1;
   padding: 40px;
+  color: #fff;
 }
 
 .heading__right{
@@ -112,14 +113,19 @@ body{
 }
 
 .section__right .objective__content .objective__box p{
-  margin-bottom: 2rem;
-  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.section__right .experience__content .experience__box p:last-child {
+  margin-bottom: 1rem;
 }
 
 .section__right .edu__content{
   margin-bottom: 2rem;
 }
 
+
+.section__right .experience__content .experience__box,
 .section__right .edu__content .edu__box{
   display: -webkit-box;
   display: -ms-flexbox;
@@ -127,8 +133,8 @@ body{
   margin-top: 1rem;
 }
 
+.section__right .experience__content .experience__box .title,
 .section__right .edu__content .edu__box .duration{
-  color: #fff;
   text-transform: uppercase;
   -webkit-box-flex: 0;
   -ms-flex: 0 0 30%;
@@ -136,11 +142,15 @@ body{
   margin-right: 10px;
 }
 
+.section__right .experience__content .experience__box .detail,
 .section__right .edu__content .edu__box .institute{
   -webkit-box-flex: 0;
   -ms-flex: 0 0 70%;
   flex: 0 0 70%;
-  color: #fff;
+}
+
+.section__right .experience__content .experience__box .title{
+  text-transform: capitalize;
 }
 
 .section__right .edu__content .edu__box .institute span{
@@ -163,7 +173,6 @@ body{
 }
 
 .section__right .skills .skills__content h4 {
-  color: #fff;
   font-weight: 500;
   -webkit-box-flex: 0;
   -ms-flex: 0 0 30%;
@@ -176,6 +185,7 @@ body{
   width: 100%;
   height: 10px;
   background: #f0f0f0;
+  color: #000;
   -webkit-box-flex: 0;
   -ms-flex: 0 0 70%;
   flex: 0 0 70%;
@@ -191,20 +201,21 @@ body{
   text-align: center;
 }
 
-.section__right .certificate h4{
-  color: #c72087;
-}
-
-.section__right .certificate p{
-  color: #fff;
-}
-
 /*-----------------------------
         BOTTOM
 -------------------------------*/
 .bottom__section{
   padding: 3rem;
   background: goldenrod;
+}
+
+.bottom__section .certificate h4{
+  color: #c72087;
+}
+
+.bottom__section .certificate p{
+  color: #fff;
+  margin-bottom: 1rem;
 }
 
 .bottom__section .personal__info .personal__info__item {
@@ -215,14 +226,14 @@ body{
   color: #fff;
 }
 
-.bottom__section .personal__info .personal__info__item h3:nth-of-type(1){
+.bottom__section .personal__info .personal__info__item h4:nth-of-type(1){
   -webkit-box-flex: 0;
   -ms-flex: 0 0 30%;
   flex: 0 0 30%;
   margin-right: 10px;
 }
 
-.bottom__section .personal__info .personal__info__item h3:nth-of-type(2){
+.bottom__section .personal__info .personal__info__item h4:nth-of-type(2){
   -webkit-box-flex: 0;
   -ms-flex: 0 0 70%;
   flex: 0 0 70%;
